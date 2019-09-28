@@ -3,7 +3,7 @@
         <h1 id="color-override">Eat the Burger</h1>
         <p id="color-override">Make your own burgers and eat them too!!</p>
         <br>
-        <h2 id="color-override">Make a Burger</h2>
+        {{!-- <h2 id="color-override">Make a Burger</h2> --}}
         <panel>
             <form class="create-form">
                 <div class="form-group">
@@ -19,13 +19,13 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <div class="panel-heading" id="lefthead"><strong>New Burgers</strong></div>
+                <div class="panel-heading" id="lefthead"><strong>Burger Menu</strong></div>
                 <div class="panel-body">
                     <ul>
                         {{#each burgers}}
                             {{#unless devoured}}
-                                <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
-                                <button type="button" class="eatburger btn btn-warning" id ="eatbutton" data-id="{{this.id}}" data-newDevoured="{{devour}}"><span class="fa fa-cutlery"></span></button>
+                                <span><strong> {{this.id}} - {{this.burger_name}} </strong></span> | 
+                                <button type="button" class="eatburger btn btn-warning" id ="eatbutton" data-id="{{this.id}}" data-newDevoured="{{devour}}">Eat me!</button>
                                 <hr>
                             {{/unless}}
                         {{/each}}

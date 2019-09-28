@@ -1,5 +1,11 @@
 body {
     background-image: url("/assets/img/burger.jpg");
+}
+
+body,
+.jumbotron,
+#lefthead,
+#righthead {
     font-family: 'Cedarville Cursive', Cursive;
 }
 
@@ -16,9 +22,9 @@ body {
     font-family: 'Cedarville Cursive', Cursive;
 } */
 
-/* #newburger {
-    border-radius: 5px;
-} */
+#addburger {
+    background-color: skyblue;
+}
 
 #color-override {
     color: #fff;
