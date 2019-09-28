@@ -43,7 +43,7 @@ var orm = {
         });
     },
     // Add a burger to the db.
-    create: function(table, cols, vals, cb) {
+    insertOne: function(table, cols, vals, cb) {
         var queryString = "INSERT INTO " + table;
         queryString += " (";
         queryString += cols.toString();
@@ -61,7 +61,7 @@ var orm = {
         });
     },
     // Set burger devoured status to true.
-    update: function(table, objColVals, condition, cb) {
+    updateOne: function(table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
         queryString += " SET ";
         queryString += objToSql(objColVals);
