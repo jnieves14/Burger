@@ -4,8 +4,8 @@ body {
 
 body,
 .jumbotron,
-#lefthead,
-#righthead {
+#left,
+#right {
     font-family: 'Cedarville Cursive', Cursive;
 }
 
