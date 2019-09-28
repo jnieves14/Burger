@@ -1,32 +1,38 @@
+body {
+    background-image: url("/assets/img/burger.jpg");
+    font-family: 'Cedarville Cursive', Cursive;
+}
+
 .jumbotron {
-    background-image: url("/assets/img/background.jpg");
+    background-image: url("/assets/img/burger-logo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 10px;
+    color: white;
 }
 
-.jumbotron > h1 {
+/* .jumbotron > h1 {
     font-family: 'Cedarville Cursive', Cursive;
-}
+} */
 
-#newburger {
+/* #newburger {
     border-radius: 5px;
-}
+} */
 
 #color-override {
     color: #fff;
 }
 
 #lefthead {
-    background-color: #5cb85c;
+    background-color: skyblue;
     color: white;
     text-align: center;
     font-size: 1.2em;
 }
 
 #righthead {
-    background-color: #f0ad4e;
+    background-color: maroon;
     color: white;
     text-align: center;
     font-size: 1.2em;
