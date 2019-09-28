@@ -30,14 +30,14 @@ body,
     color: #fff;
 }
 
-#lefthead {
+#left {
     background-color: skyblue;
     color: white;
     text-align: center;
     font-size: 1.2em;
 }
 
-#righthead {
+#right {
     background-color: maroon;
     color: white;
     text-align: center;
