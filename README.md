@@ -1,7 +1,7 @@
 # Burger
 
 For all aspiring burger connoisseurs, use this app to create the ultimate burger...and eat it, too!
-Also, see what burrges past app users have made. 
+Also, see what burger past app users have made. 
 
 ## Live Link
  - https://pure-coast-88382.herokuapp.com
